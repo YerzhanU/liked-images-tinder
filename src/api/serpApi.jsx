@@ -12,6 +12,5 @@ export const fetchImages = async (query) => {
   };
 
   const response = await axios.get('/api/search', { params });
-  console.log(response);
   return response.data.images_results; // Adapt this based on actual JSON response structure
 };
