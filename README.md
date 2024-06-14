@@ -1,8 +1,49 @@
-# React + Vite
+# Liked Images Aesthetics Tinder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application to help users find and express their design preferences by swiping left (dislike) or right (like) on images fetched from SerpApi.
 
-Currently, two official plugins are available:
+![Aesthetics Tinder](assets/image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Search for images based on user queries.
+- Swipe left to dislike or right to like images.
+- Store liked images and display them on the screen.
+- Smooth animations and responsive design.
+
+## Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+- Node.js
+- NPM (Node Package Manager)
+- SerpApi Key (You can get your API key from [SerpApi](https://serpapi.com/manage-api-key))
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+   ```sh
+   git clone https://github.com/YerzhanU/liked-images-tinder.git
+   cd liked-images-tinder
+   ```
+
+2. Install the dependencies:
+
+   ```sh
+   npm install
+   ```
+
+3. You can get your own API Key in replace in [serpApi.jsx](https://github.com/YerzhanU/liked-images-tinder/blob/master/src/api/serpApi.jsx#L3)
+
+Running the Development Server
+
+1. Clone the repository to your local machine:
+
+   ```sh
+   npm run dev
+   ```
+
+2. Open your browser and navigate to localhost shown by the result of your run
