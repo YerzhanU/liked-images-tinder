@@ -2,7 +2,7 @@
 
 A web application to help users find and express their design preferences by swiping left (dislike) or right (like) on images fetched from SerpApi.
 
-![Aesthetics Tinder](assets/demo.png)
+![Aesthetics Tinder](src/assets/demo.png)
 
 ## Features
 
