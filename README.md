@@ -4,6 +4,8 @@ A web application to help users find and express their design preferences by swi
 
 ![Aesthetics Tinder](src/assets/demo.png)
 
+Demo is available at: https://liked-images-tinder.vercel.app/
+
 ## Features
 
 - Search for images based on user queries.
