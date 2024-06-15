@@ -4,8 +4,6 @@ const API_KEY = '280587d31d387104738faab45918eb4cbdbb1be974f9ef38fb662df2af746d4
 
 module.exports = async (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
   const { query } = req.query;
 
