@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = '280587d31d387104738faab45918eb4cbdbb1be974f9ef38fb662df2af746d47';
+const API_KEY = 'YOUR-API-KEY';
 
 export const fetchImages = async (query) => {
   try {

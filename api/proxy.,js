@@ -1,9 +1,11 @@
 const axios = require('axios');
 
-const API_KEY = '280587d31d387104738faab45918eb4cbdbb1be974f9ef38fb662df2af746d47';
+const API_KEY = 'YOUR-API-KEY';
 
 module.exports = async (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
   const { query } = req.query;
 
